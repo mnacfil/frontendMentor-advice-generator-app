@@ -1,4 +1,4 @@
-const adviceMessage = document.querySelector('.advice-center p');
+const adviceMessage = document.querySelector('.advice-center blockquote');
 const advanceID = document.querySelector('.adviceID')
 const fetchBtn = document.querySelector('.advice-btn');
 
@@ -19,7 +19,7 @@ const fetchAdvice = async() => {
 const displayAdvice = async () => {
     const {slip: {id, advice}}= await fetchAdvice()
     advanceID.textContent = id
-    adviceMessage.textContent = advice
+    adviceMessage.textContent = `"${advice}"`
 }
 
 window.addEventListener('DOMContentLoaded', displayAdvice)

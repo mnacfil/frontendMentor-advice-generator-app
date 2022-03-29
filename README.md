@@ -64,3 +64,4 @@ I think some animation, just to make it more interactive.
 I'd like to thank Mr John Smilga. He's one of the best teacher on UDEMY and youtube, his teaching style make hard topic a lot eassier because of the way he clarify and explain in deep every part of the code.
 
 Wanna some gotcha's and mine grenade just enroll tot his course.
+s
